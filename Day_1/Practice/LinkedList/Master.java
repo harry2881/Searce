@@ -6,5 +6,6 @@ public class Master
     list.insertLast(3);
     list.insertLast(1);
     list.insertLast(10);
+    list.show();
 }
 }
