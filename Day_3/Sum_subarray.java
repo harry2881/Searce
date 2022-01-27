@@ -3,7 +3,7 @@ import java.util.*;
 public class Sum_subarray{
     
     public static void naive(int a[],int sum)     // This is a naive approach to find the subarray with a given sum
-    {
+    {                                             // Time Complexity - O(n^2)
         for(int i=0;i<a.length;i++)
         {
             int b=0;
@@ -19,8 +19,8 @@ public class Sum_subarray{
             }
         }
     }
-    public static void Using_hashmap(int a[],int sum)
-    {
+    public static void Using_hashmap(int a[],int sum)     // This is the approach using hashmap
+    {                                                    // Time Complexity - O(n)
         int start=0;
         int cursum=0;
         int end=-1;
