@@ -1,4 +1,4 @@
-package Practice;
+package Day_1.Practice;
 
 import java.util.Scanner;
 public class Deletion {

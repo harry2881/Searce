@@ -6,7 +6,7 @@ import java.util.Set;
 // This is a program to calculate distinct elements present in an array.
 
 // In the naive approach we have to use two pointers and check if we have already come across that element or not.
-//But with hash set we can do it pretty easily in O(1) time complexity.
+//But with hashset we can do it pretty easily in O(1) time complexity.
 
 public class Count_distinct {
 
@@ -29,7 +29,8 @@ public class Count_distinct {
         {
             arr[i]=sc.nextInt();
         }
-        System.out.print("The no. of distinct elements are "+arr);
+        sc.close();
+        System.out.print("The no. of distinct elements are "+usingHashSet(arr));
         
     }
 }

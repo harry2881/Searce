@@ -1,6 +1,6 @@
 class LL{
     Node head;
-    public void insertLast(data)
+    public void insertLast(int data)
     {
         Node n=new Node(data);
         if(head==null)
